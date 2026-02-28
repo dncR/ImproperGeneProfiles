@@ -126,7 +126,7 @@ for (i in 1:nrow(simulation_scenarios)) {
 
 # 2. Plots ----
 # 2.1 Performances ----
-load("saved/Simulation/simRes-manuscript-rev1.Rda")
+load("saved/Simulation/simRes-manuscript.Rda")
 
 simRes <- lapply(simRes, function(x) {
   x |>
